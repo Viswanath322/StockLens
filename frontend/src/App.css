@@ -1,0 +1,30 @@
+/* App-specific styles - most styling is now handled by Tailwind CSS */
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for better accessibility */
+*:focus {
+  outline: 2px solid #a855f7;
+  outline-offset: 2px;
+}
