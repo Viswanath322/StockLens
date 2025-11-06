@@ -1,0 +1,6 @@
+venv-test/ 
+__pycache__/ 
+*.pyc 
+.env 
+*.pkl 
+*.pt 
