@@ -1,0 +1,2 @@
+[console_scripts]
+stocklens-cli = stocklens.__main__:main
